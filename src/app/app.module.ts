@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DiagramComponent } from './diagram/diagram.component';
+import { DiagramEditorComponent } from './diagram-editor/diagram-editor.component';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiagramComponent
+    DiagramEditorComponent
   ],
   imports: [
     BrowserModule,
